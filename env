@@ -1,9 +1,6 @@
-mongodb = "Key Database mongodb Kamu"
-sendemail = 'Email SMTP'
-fromsendemail = 'EMAIL SMTP sama dengan atas'
-sendpwmail = "Password EMAIL SMTP"
-
-GET APIKEY RECAPTCHA From https://www.google.com/recaptcha/admin/create
-
-recaptcha_key_1 = 'Key recaptchaV1 Kamu'
-recaptcha_key_2 = 'Key recaptchaV2 Kamu'
+mongodb = "mongodb+srv://riansyah5790:fxrg0zlasRbXmPyU@cluster0.udd6fu6.mongodb.net/?retryWrites=true&w=majority"
+sendemail = 'rokumo.dev@gmail.com'
+fromsendemail = 'rokumo.dev@gmail.com'
+sendpwmail = "slwrgcmkksquylcd"
+recaptcha_key_1 = '6LfbvVYnAAAAAKXM-OtB0Xr7tkg2eUme2_-VjNtC'
+recaptcha_key_2 = '6LfbvVYnAAAAANB12fPaTtEL2uzZOGx1anoyGk2h'
