@@ -21,7 +21,7 @@ module.exports.sendResetEmail = async (email, token) => {
   await smtpTransport.sendMail({
     from: fromsendemail,
     to: email,
-    subject: "MENETAPKAN SEMULA KATA LALUAN ANDA",
+    subject: "RESET PASSWORD DAN",
     html: `
     <!DOCTYPE html>
     <html>
@@ -222,7 +222,7 @@ module.exports.sendVerifyEmail = async (email, token) => {
   await smtpTransport.sendMail({
     from: fromsendemail,
     to: email,
-    subject: "SAHKAN EMAIL ANDA",
+    subject: "VERIFIKASI EMAIL ANDA",
     html: `
     <!DOCTYPE html>
     <html>
@@ -303,7 +303,7 @@ module.exports.sendVerifyEmail = async (email, token) => {
     <body style="background-color: #e9ecef;">
     
       <div class="preheader" style="display: none; max-width: 0; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #fff; opacity: 0;">
-        Sahkan E-mel Anda Dengan klik Buton Di Bawah.
+        Verifikasi Email Kamu Dengan klik Buton Di Bawah.
       </div>
 
       <table border="0" cellpadding="0" cellspacing="0" width="100%">
